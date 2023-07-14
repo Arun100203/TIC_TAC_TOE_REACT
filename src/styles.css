@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-row {
+  text-align: center;
+  box-sizing: 180px;
+}
+
+.status {
+  text-align: center;
+}
