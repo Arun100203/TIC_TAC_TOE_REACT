@@ -1,13 +1,30 @@
-.App {
+* {
+  text-align: center;
+}
+
+.game-board,
+.status,
+.game-info,
+.status {
   font-family: sans-serif;
   text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+.square {
+  margin: 2px;
+  font-size: 25px;
+  height: 50px;
+  background-color: white;
+  width: 50px;
+}
+
+.list {
+  padding: 2px;
 }
 
 .board-row {
   text-align: center;
   box-sizing: 180px;
-}
-
-.status {
-  text-align: center;
 }
